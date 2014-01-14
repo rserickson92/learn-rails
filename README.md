@@ -1,4 +1,4 @@
-Learning Rails
+My Portfolio
 ==
 
-Learning Rails with a tutorial from the RailsApps project.
+Based on Learning Rails, a tutorial from the RailsApps project.
