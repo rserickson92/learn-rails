@@ -9,14 +9,19 @@
     <%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+    <%= render 'layouts/shim' %>
   </head>
   <body>
     <header>
       <%= render 'layouts/navigation' %>
+      <%= render 'layouts/header' %>
     </header>
     <main role="main">
        <%= render 'layouts/messages' %>
        <%= yield %>
     </main>
+    <footer>
+       <%= render 'layouts/footer' %>
+    </footer>
   </body>
 </html>
