@@ -1,0 +1,28 @@
+<% content_for :title do %>Projects<% end %>
+<h3>Personal Projects</h3>
+<section>
+    <!-- TODO: Replace with code that reads from some kind of file or database -->
+    <h5>
+	Portfolio
+	<%= link_to '(source code)' ,'https://github.com/rserickson92/portfolio' %>
+	<%= link_to '(view)', root_path %>
+    </h5>
+    <p>
+	The site you are currently viewing, which is in active development. 
+	I wrote it using Ruby on Rails, and when it is finished, it will showcase
+	myself and all of my wonderful work to date!
+    </p>
+
+    <h5>
+	Multiplayer Pac-Man
+	<%= link_to '(source code)' , 'https://github.com/vmichial/yolo-tribble' %>
+    </h5>
+    <p>
+        Began at HackTech 2014, this is an extension of Pac-Man that will feature 
+	online multiplayer (up to 5 players: 1 pacman and 4 ghosts). There will
+	be a wide variety of power-ups and randomized stages. Example power-ups
+	include: Spider-Pacman, Ninja Pac, Pac Bond, Pac-12, etc. Currently only 
+	one-on-one local multiplayer is enabled. Written in HTML and JavaScript,
+	with plans to use the Firebase API for our back-end.
+    </p>
+</section>
